@@ -1,0 +1,33 @@
+.video-small, .video-medium, .video-large{
+  display: none;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+h1{
+  position: absolute;
+  z-index: +1;
+  color: lightpink;
+}
+
+/* MOBILE media=max-width: 360px */
+@media only screen and (max-width: 360px) {
+  .video-small{
+   display: block;
+  }
+ }
+
+ /* TABLET media= (max-width: 720px) */
+ @media only screen and (min-width: 360px) and (max-width: 720px) {
+  .video-medium{
+   display: block;
+ }
+}
+
+/* DESKTOP media="( max-width: 1280px)" */
+@media only screen and (min-width: 720px) {
+  .video-large{
+    display: block;
+  }
+}
