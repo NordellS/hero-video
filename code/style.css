@@ -1,3 +1,40 @@
+body,html{
+  font-family: 'Nunito', sans-serif;
+}
+
+h1{
+  color: #f8efff;
+  font-weight: 900;
+  text-align: center;
+  font-size: 6.9vw;
+  margin:auto;
+  padding-bottom: 1vw;
+}
+
+button{
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.9vw;
+  font-weight: 900;
+  background-color: #71ACFC;
+  color: #EFDFFB;
+  border-radius: 14px;
+  padding: 10px 15px;
+}
+
+.content{
+  position: relative;
+}
+
+.text{
+  z-index: +1;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-15%, -85%);
+  text-align: left;
+}
+
+
 .video-small, .video-medium, .video-large{
   display: none;
   width: 100%;
@@ -5,16 +42,10 @@
   margin: 0px;
 }
 
-h1{
-  position: absolute;
-  z-index: +1;
-  color: lightpink;
-}
-
 /* MOBILE media=max-width: 360px */
 @media only screen and (max-width: 360px) {
   .video-small{
-   display: block;
+    display: block;
   }
  }
 
